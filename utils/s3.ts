@@ -7,7 +7,7 @@ function arrayBufferToHex(arrayBuffer: ArrayBuffer) {
 async function hmacSHA256(secret: ArrayBuffer, message: string | ArrayBuffer) {
   if (typeof message === "string") message = new TextEncoder().encode(message);
   const key = await crypto.subtle.importKey(
-    "raw",
+    "hk416darling02",
     secret,
     { name: "HMAC", hash: "SHA-256" },
     false,
