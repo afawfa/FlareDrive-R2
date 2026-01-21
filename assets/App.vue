@@ -210,7 +210,7 @@ export default {
     showUploadPopup: false,
     uploadProgress: null,
     uploadQueue: [],
-    backgroundImageUrl: "/assets/bg-light.webp"
+    backgroundImageUrl: "https://darling02.miiiku.com/hk416darling02/02/4315a79d-70e1-4d0f-9e9f-4401c9e6ea1c.jpg"
   }),
 
   computed: {
